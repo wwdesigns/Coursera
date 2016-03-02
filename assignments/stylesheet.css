@@ -77,17 +77,3 @@ h1 {
 .text {
   clear: both;
 }
-
-.left {
-   padding:10px 10px 20px 10px;
-}
-
-.middle {
-  padding:10px 10px 3px 10px;
-  width: 95%;
-}
-
-.right {
-  padding:10px 10px 3px 10px;
-  width: 95%;
-}
