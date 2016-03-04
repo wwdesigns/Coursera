@@ -2,4 +2,17 @@ body {
 	font-size: 16px;
 	color: #fff;
 	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-image: none;
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background-image: url(restaurant);
 }
