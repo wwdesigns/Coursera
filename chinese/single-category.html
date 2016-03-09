@@ -38,7 +38,7 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
+            <li class="active">
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
@@ -69,26 +69,29 @@
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
   <div id="mainContent" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt:"Picture of Restaurant" class="img-responsive visible-xs">
-    </div>
+    <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+    <div class="text-center">Lunch is not served until after 1pm.</div>
 
-    <div class="row" id="homeTile">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.de/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!3m1!4b1!4m2!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea?hl=en" target="_blank">
-          <div id="map-tile">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6753723904753!2d-76.71386218542393!3d39.363587426935894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sde!4v1457375851312" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>Map</span>
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>D01</div>
+              <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
           </div>
-        </a>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
       </div>
-    </div><!--end of div #home-tiles-->
+    </section>
+
+
   </div><!--end of div #main-content-->
 
   <footer class="panel-footer">
